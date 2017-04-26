@@ -1,0 +1,19 @@
+// community cards
+.community-card {
+  text-align: center;
+  padding: $base-spacing;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.25);
+  margin-bottom: $large-spacing;
+
+  img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: $base-spacing;
+    border: solid 1px $gray-2;
+    border-radius: 8px;
+  }
+
+  .go-to-btn {
+    margin-top: $base-spacing;
+  }
+}

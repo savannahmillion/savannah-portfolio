@@ -1,0 +1,49 @@
+// vendors
+@import "vendors/normalize";
+@import "vendors/skeleton";
+
+// custom
+@import "portfolio/variables";
+@import "portfolio/typography";
+@import "portfolio/includes";
+@import "portfolio/utilities";
+
+// page specific
+@import "portfolio/pages/project-list";
+@import "portfolio/pages/project-breakdown";
+@import "portfolio/pages/community-list";
+
+
+// Page templates
+.default-page {
+  background-color: #fff;
+  padding: $large-spacing 0;
+}
+
+article, .default-article {
+  p, h4 {
+    margin-bottom: $base-spacing;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+  ul {
+    list-style-type: none;
+    li {
+      margin-bottom: 0.5rem;
+    }
+  }
+}
+
+// Page Specifics
+.info-page {
+  background-color: #fff;
+  padding: $large-spacing 0;
+}
+
+.page-title {
+  margin-bottom: $large-spacing;
+}
