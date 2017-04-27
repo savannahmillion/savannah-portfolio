@@ -17,5 +17,5 @@ I also enjoy making things outside of work, such as podcasts, drawings, games an
 
 You can also reach me by email at <mailto:savannahmillion@gmail.com>.
 
-![photo of my face](/assets/img/portrait-bw.jpeg "photo of my face")
+![photo of my face]({{ "/assets/img/portrait-bw.jpeg" | relative_url }} "photo of my face")
 _Photo credit [Zachary Sigelko](http://adptpro.com/)_
