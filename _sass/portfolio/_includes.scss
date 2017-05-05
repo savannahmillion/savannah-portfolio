@@ -28,6 +28,10 @@ header {
   }
 }
 
+.active {
+  a { border-bottom-width: 0px }
+}
+
 footer {
   padding: $xl-spacing 0;
   text-align: center;
